@@ -50,5 +50,20 @@ do{
                             int Coba=input2.nextInt(); 
                             int Kurang=4-i;
                             if(Coba==TestAcak){ 
-             
+                                if(i==0){
+                                    OutputJalan=OutLevel*100; 
+                                }
+                                else if(i==1){
+                                    OutputJalan=OutLevel*70; 
+                                }
+                                else if(i==2){
+                                    OutputJalan=OutLevel*50; 
+                                }
+                                else if(i==3){
+                                    OutputJalan=OutLevel*30; 
+                                }
+                                else{
+                                    OutputJalan=0; 
+                                }
+                                
                 
