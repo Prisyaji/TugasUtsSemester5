@@ -104,4 +104,15 @@ do{
             }
             score.add(x); 
             if(!"y".equals(cariY)){ 
+            System.out.println("Score Sementara Yang Didapat :");
+                    System.out.println("---------------");
+                    int xcobsem, ycobsem; 
+                    int xJumcobsem=player.size();
+                  
+                    for(xcobsem=0;xcobsem<xJumcobsem;xcobsem++){ 
+                        System.out.println(player.get(xcobsem) + " : " + score.get(xcobsem));
+                    }
+            }
+        }            
+            
                 
