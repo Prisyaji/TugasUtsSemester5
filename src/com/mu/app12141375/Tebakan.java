@@ -14,3 +14,8 @@ public static void main(String[] args) {
         Scanner input2= new Scanner(System.in); 
         Random angkaRandom=new Random(); // ini untuk mengacak angka
         String cariY; 
+do{
+            System.out.println("Masukkan 'Nama' anda atau tekan 'y' untuk keluar, kemudian tekan enter = ");
+            System.out.println("");
+            cariY=input.nextLine();
+            System.out.println("");
