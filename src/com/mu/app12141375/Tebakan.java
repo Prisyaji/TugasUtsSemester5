@@ -32,3 +32,10 @@ do{
                 int OutLevel=1;    
                 System.out.println("Selamat Datang " + cariY); 
                 do{
+                int i, Ang, Call;
+                    System.out.println("# Level " + OutLevel);
+                    int HasilO=OutLevel-1;    
+                    Call=OutLevel*100; // Menaikan Nilai dan Angka Random pada tiap level
+                    System.out.println("Silahkan Tebak Antara 1 s/d " + Call);
+             
+                
