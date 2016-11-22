@@ -114,5 +114,14 @@ do{
                     }
             }
         }            
-            
+         while(!"y".equals(cariY)); 
+        int jumPemain=player.size(); 
+        System.out.println("Total Score Yang Didapat :");
+
+        int l;
+        for(l=0;l<jumPemain-1;l++){
+            System.out.println(player.get(l) + " : " + score.get(l)); 
+        }
+    }
+}   
                 
