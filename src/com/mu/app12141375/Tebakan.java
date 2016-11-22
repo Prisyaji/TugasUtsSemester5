@@ -83,4 +83,17 @@ do{
                             }
                         }
                     }
+                    if(Berakhir>0){
+                        break;
+                    }
+                    
+                    if(OutLevel==5){ 
+                        break;
+                    }
+                    else{
+                    Level[HasilO]=OutputJalan; 
+                    System.out.println("Ketik 'next' dan tekan enter untuk lanjut ke Level berikutnya atau ketik 'exit' untuk keluar : ");
+                    Tingkatan=input.nextLine(); 
+                    OutLevel++; 
+                    }
                 
