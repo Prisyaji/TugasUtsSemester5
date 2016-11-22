@@ -65,5 +65,11 @@ do{
                                 else{
                                     OutputJalan=0; 
                                 }
+                                // Informasi Tebakan
+                                int Info=i+1;
                                 
+                                // Konfirmasi Tebakan Berhasil :)
+                                System.out.println("Selamat Anda berhasil menebak Angka dalam " + Info + " kali tebakan. Sekor anda adalah " + OutputJalan);
+                                break;
+
                 
