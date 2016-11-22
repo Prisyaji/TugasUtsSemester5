@@ -45,5 +45,10 @@ do{
                             System.out.println("GAMEOVER! Anda Gagal");
                             Berakhir++; 
                         }
+                        else{  
+                            System.out.println("Tebakan Anda ? " );
+                            int Coba=input2.nextInt(); 
+                            int Kurang=4-i;
+                            if(Coba==TestAcak){ 
              
                 
