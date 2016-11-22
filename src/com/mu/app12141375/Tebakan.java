@@ -23,8 +23,12 @@ do{
             int x = 0; // implementasi Variabel untuk nilai 
             int Berakhir=0; // untuk mengecek apakah berakhir. bernilai 1 jika permainan berakhir
             
-            
-            
             int Level[]= new int[6]; 
             int OutputJalan=0; 
-           
+            // Ready For The Game
+            if(!("y").equals(cariY)){  
+               
+                String Tingkatan; 
+                int OutLevel=1;    
+                System.out.println("Selamat Datang " + cariY); 
+                do{
