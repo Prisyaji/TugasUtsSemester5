@@ -96,4 +96,12 @@ do{
                     Tingkatan=input.nextLine(); 
                     OutLevel++; 
                     }
+                    }
+                while(!"exit".equals(Tingkatan));              
+            } 
+            for(int rO=0; rO<5; rO++){ 
+                x=x+Level[rO];  
+            }
+            score.add(x); 
+            if(!"y".equals(cariY)){ 
                 
