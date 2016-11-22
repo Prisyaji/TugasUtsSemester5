@@ -19,3 +19,12 @@ do{
             System.out.println("");
             cariY=input.nextLine();
             System.out.println("");
+            player.add(cariY);
+            int x = 0; // implementasi Variabel untuk nilai 
+            int Berakhir=0; // untuk mengecek apakah berakhir. bernilai 1 jika permainan berakhir
+            
+            
+            
+            int Level[]= new int[6]; 
+            int OutputJalan=0; 
+           
