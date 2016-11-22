@@ -37,5 +37,13 @@ do{
                     int HasilO=OutLevel-1;    
                     Call=OutLevel*100; // Menaikan Nilai dan Angka Random pada tiap level
                     System.out.println("Silahkan Tebak Antara 1 s/d " + Call);
+                    System.out.println("Anda mempunyai kesempatan menebak 5 kali.");
+                    int TestAcak=angkaRandom.nextInt(Call); 
+                    
+                    for(i=0;i<=5;i++){
+                        if(i==5){ 
+                            System.out.println("GAMEOVER! Anda Gagal");
+                            Berakhir++; 
+                        }
              
                 
