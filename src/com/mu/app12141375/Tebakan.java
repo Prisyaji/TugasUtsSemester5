@@ -71,5 +71,16 @@ do{
                                 // Konfirmasi Tebakan Berhasil :)
                                 System.out.println("Selamat Anda berhasil menebak Angka dalam " + Info + " kali tebakan. Sekor anda adalah " + OutputJalan);
                                 break;
+                                }
+                            else{ 
+                                if(Coba>TestAcak){
+                                    System.out.println("Tebakan Anda terlalu Besar! Anda mempunyai kesempatan " + Kurang + " kali lagi" ); // Jika Tebakan lebih besar dari angka random
+                                }
+                                else{
 
+                                    System.out.println("Tebakan Anda terlalu Kecil! Anda mempunyai kesempatan " + Kurang + " kali lagi" ); // Jika tebakan lebih kecil dari angka random
+                                }
+                            }
+                        }
+                    }
                 
